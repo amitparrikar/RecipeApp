@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app works!';
+  public navigationPath:string = 'recipes';
+
+  onNavigation(navPath: string) {
+    this.navigationPath = navPath;
+  }
 }
