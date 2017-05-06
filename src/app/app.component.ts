@@ -8,7 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public navigationPath:string = 'recipes';
 
-  onNavigation(navPath: string) {
-    this.navigationPath = navPath;
-  }
+  // onNavigation(navPath: string) { this.navigationPath = navPath; }
 }
